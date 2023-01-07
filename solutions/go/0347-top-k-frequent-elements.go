@@ -1,4 +1,4 @@
-package topkfrequentelements
+package main
 
 import (
 	"sort"
