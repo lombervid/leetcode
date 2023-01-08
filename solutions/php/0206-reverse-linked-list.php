@@ -10,13 +10,14 @@
  *     }
  * }
  */
-class Solution {
-
+class Solution
+{
     /**
      * @param ListNode $head
      * @return ListNode
      */
-    function reverseList($head) {
+    function reverseList($head)
+    {
         $reversed = null;
 
         while ($head) {

@@ -1,13 +1,14 @@
 <?php
 
-class Solution {
-
+class Solution
+{
     /**
      * @param Integer[] $nums
      * @param Integer $k
      * @return Integer[]
      */
-    function topKFrequent($nums, $k) {
+    function topKFrequent($nums, $k)
+    {
         $counts = [];
 
         foreach ($nums as $key => $num) {
