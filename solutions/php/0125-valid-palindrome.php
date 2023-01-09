@@ -5,7 +5,7 @@ class Solution
      * @param String $s
      * @return Boolean
      */
-    function isPalindrome($s)
+    function isPalindrome(string $s): bool
     {
         $s = preg_replace('/[^a-z0-9]/i', '', strtolower($s));
 

@@ -5,7 +5,7 @@ class Solution
      * @param String $s
      * @return Boolean
      */
-    function isValid($s)
+    function isValid(string $s): bool
     {
         $stack = [];
         $brackets = [')' => '(', ']' => '[', '}' => '{'];

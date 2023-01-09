@@ -6,7 +6,7 @@ class Solution
      * @param Integer $target
      * @return Integer[]
      */
-    function twoSum($nums, $target)
+    function twoSum(array $nums, int $target): ?array
     {
         $rest = [];
 
@@ -17,5 +17,7 @@ class Solution
 
             $rest[$num] = $i;
         }
+
+        return null;
     }
 }

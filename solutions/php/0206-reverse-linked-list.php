@@ -16,7 +16,7 @@ class Solution
      * @param ListNode $head
      * @return ListNode
      */
-    function reverseList($head)
+    function reverseList(?ListNode $head): ?ListNode
     {
         $reversed = null;
 

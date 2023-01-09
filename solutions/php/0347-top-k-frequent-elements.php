@@ -7,7 +7,7 @@ class Solution
      * @param Integer $k
      * @return Integer[]
      */
-    function topKFrequent($nums, $k)
+    function topKFrequent(array $nums, int $k): array
     {
         $counts = [];
 
